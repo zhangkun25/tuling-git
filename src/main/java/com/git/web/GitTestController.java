@@ -8,6 +8,6 @@ public class GitTestController {
 
     @RequestMapping("/git")
     public String git(){
-        return "hello git -v0.6 master update";
+        return "hello git -v0.6 master update merge 合并分支";
     }
 }
