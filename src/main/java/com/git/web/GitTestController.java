@@ -8,6 +8,6 @@ public class GitTestController {
 
     @RequestMapping("/git")
     public String git(){
-        return "hello git";
+        return "hello git -v0.1";
     }
 }
