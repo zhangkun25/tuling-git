@@ -12,6 +12,6 @@ public class GitTestController {
     }
     @RequestMapping("/query")
     public String query(){
-        return "this is new method";
+        return "this is new method --测试远程提交github";
     }
 }
