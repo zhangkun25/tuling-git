@@ -10,4 +10,8 @@ public class GitTestController {
     public String git(){
         return "hello git -v1.01 master update merge 合并分支 --merge ZHANGKUN";
     }
+    @RequestMapping("/query")
+    public String query(){
+        return "this is new method";
+    }
 }
