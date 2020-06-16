@@ -8,7 +8,6 @@
         <version>2.1.15.RELEASE</version>
         <relativePath/>
 
-
     </parent>
     <groupId>com.git</groupId>
     <artifactId>tuling-git</artifactId>

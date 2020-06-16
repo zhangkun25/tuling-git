@@ -11,7 +11,7 @@ public class GitTestController {
 
     @RequestMapping("/git")
     public String git(){
-        return "hello git -v1.07 使用ssh连接提交";
+        return "hello git -v1.07 使用ssh连接提交 --测试jenkins定时+改变轮询";
     }
     @RequestMapping("/query")
     public String query(){
