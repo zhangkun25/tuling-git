@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.concurrent.TimeUnit;
 
 @RestController
 public class GitTestController {
@@ -16,7 +17,6 @@ public class GitTestController {
     @RequestMapping("/query")
     public String query(){
         String format = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
-
         return "this is new method --测试远程提交github" + format;
     }
 }
